@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  String alphabet = stdin.readLineSync();
+  String alphabet = stdin.readLineSync().toLowerCase();
    if (alphabet.length>1)
   {
     print('Please Enter Only one Character !!');
